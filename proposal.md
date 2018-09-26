@@ -25,7 +25,7 @@ Wireframes
 This app will consist of a single screen with game board, game controls, sound toggle and nav links to the Github, my LinkedIn, and my portfolio website. Game controls will include Start, Shoot, Directional movements.
 
 Wireframe
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/Benpong89/Shooting_game/blob/master/Game%20Proposal%20-%20Wireframe.png)
 
 Architecture and Technologies
 This project will be implemented with the following technologies:
