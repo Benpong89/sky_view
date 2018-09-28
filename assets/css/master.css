@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Notable');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #4F6367;
+  background-size: cover;
+  background-image: url(/Users/ben/Desktop/game_projects/shooter_game/assets/images/T2hwUmC.gif);
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+
+canvas {
+  display: block;
+  margin: 30px auto 0;
+  background: #626670;
+}
+
+/* background gif credit Valeriya ‘Waneella’ Sanchillo, 2014 */
