@@ -1,4 +1,4 @@
-Sample JS Project Proposal: Shooting game with lasers and explosions
+Sample JS Project Proposal: Shooting game with lasers
 
 Background
 Remake of the classic vertical scrolling arcade game 1942. The user will control a flying plane that will shoot at targets and avoid obstacles.
@@ -40,3 +40,20 @@ Day 2: Start implementing some game logic. Utilize some new libraries. Should be
 Day 3: Complete collision effects for user, enemies and lasers. Incorporate a scrolling background.
 
 Day 4: Replace basic user and enemy shapes with pictures.
+
+Main components of the game.
+
+Drawing images on canvas
+Using DOM key handlers to move images
+Using JS logic to:
+
+1.  Produce random enemies
+2.  Create collision effect
+3.
+
+Bonus
+
+1.  Enemy lasers
+2.  Sound effects/explosion effects
+3.  Boss fight
+4.  Add lives? More than one hit to die

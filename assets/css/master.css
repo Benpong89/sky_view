@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Notable');
 @import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url("https://fonts.googleapis.com/css?family=Chakra+Petch:700");
 
 body {
   padding: 0;
   margin: 0;
   background: #4F6367;
   background-size: cover;
-  background-image: url(/Users/ben/Desktop/game_projects/shooter_game/assets/images/T2hwUmC.gif);
+  background-image: url(/Users/ben/Desktop/game_projects/sky_view/assets/images/T2hwUmC.gif);
 }
 
 h1 {
@@ -20,4 +20,33 @@ canvas {
   background: #626670;
 }
 
-/* background gif credit Valeriya ‘Waneella’ Sanchillo, 2014 */
+.credit {
+  font-family: "Chakra Petch", sans-serif;
+  text-align: right;
+  color: #355c7d;
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+a {
+  color: #355c7d;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #6c5c7b;
+}
+
+.bottom_credits {
+  font-family: "Chakra Petch", sans-serif;
+  text-align: right;
+  color: #355c7d;
+  font-size: 12px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
