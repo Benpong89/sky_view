@@ -1,17 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url("https://fonts.googleapis.com/css?family=Lobster");
 @import url("https://fonts.googleapis.com/css?family=Chakra+Petch:700");
+@import url('https://fonts.googleapis.com/css?family=Srisakdi');
 
 body {
   padding: 0;
   margin: 0;
-  background: #4F6367;
+  background: #4f6367;
   background-size: cover;
   background-image: url(https://archive-media-1.nyafuu.org/wg/image/1515/43/1515436695167.gif);
 }
 
 h1 {
   text-align: center;
-  font-family: 'Lobster', cursive;
+  font-family: "Chakra Petch", sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: #A8A7A8;
+  font-size: 45px;
 }
 
 canvas {
@@ -21,13 +25,12 @@ canvas {
 }
 
 .credit {
+  position: relative;
   font-family: "Chakra Petch", sans-serif;
-  text-align: right;
-  color: #355c7d;
-  font-size: 12px;
-  position: absolute;
-  top: 0;
-  right: 0;
+  color: #A8A7A8;
+  font-size: 14px;
+  text-align: center;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 a {
@@ -41,7 +44,11 @@ a:hover {
   color: #6c5c7b;
 }
 
-.bottom_credits {
+.name {
+  color: #A8A7A8
+}
+
+/* .bottom_credits {
   font-family: "Chakra Petch", sans-serif;
   text-align: right;
   color: #355c7d;
@@ -49,4 +56,10 @@ a:hover {
   position: absolute;
   bottom: 0;
   right: 0;
+} */
+.controls {
+  font-family: "Chakra Petch", sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: #A8A7A8;
+  text-align: center;
 }

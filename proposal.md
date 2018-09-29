@@ -56,4 +56,4 @@ Bonus
 1.  Enemy lasers
 2.  Sound effects/explosion effects
 3.  Boss fight
-4.  Add lives? More than one hit to die
+4.  Add health? More than one hit to die
