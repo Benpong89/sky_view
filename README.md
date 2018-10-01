@@ -1,8 +1,10 @@
 [Live demo!](benpong.com/sky_view)
 
+![alt text](https://github.com/Benpong89/sky_view/blob/master/lib/port04%20copy.png)
+
 Single page Javascript game. Incorporates Canvas and Javascript logic to achieve a nostalgic arcade-shooter user experience. Utilizes Google Firebase to store high scores.
 
-The core of features of this app
+The core of features of this app include Canvas shapes and sprites rendering, JS logic to incorporate collisions, and key input handling for user game play.
 
 Home Court is a single page sports news app that can be used to search for real live news from hundreds of sources. Users can search for sports news based on city or state. Home Court provides image and description summaries with links and credits to the original articles. I engineered this app with a custom async query through News API and implemented the data through React.js. Technologies used include React.js and News API.
 
