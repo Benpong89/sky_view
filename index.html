@@ -7,18 +7,8 @@
   <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase.js"></script>
   <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-database.js"></script>
-  <script>
-    // Initialize Firebase
-    var config = {
-      apiKey: "AIzaSyAs_xDlQv1Q2QgvQluqT1STuoyxWXYUSvU",
-      authDomain: "sky-view.firebaseapp.com",
-      databaseURL: "https://sky-view.firebaseio.com",
-      projectId: "sky-view",
-      storageBucket: "",
-      messagingSenderId: "454516180641"
-    };
-    firebase.initializeApp(config);
-  </script>
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+
   <title>Sky View</title>
 </head>
 
@@ -35,17 +25,27 @@
     }
   </script>
   <h1>Sky View</h1>
+
   <div class="credit">
     Developed by <a class='name' href="/">Ben Pong</a>
     <br />
     <a href="https://github.com/Benpong89">Github</a>
     <a href="https://www.linkedin.com/in/ben-pongsanarakul-bb21922b">LinkedIn</a>
   </div>
+
   <audio id="audio1" src="./lib/Future-RPG.mp3"></audio>
   <button class ="play" onClick="play()">&#128266;</button>
-  <canvas id="canvas" width="450" height="600"></canvas>
-  <script src="lib/game.js" charset="utf-8"></script>
 
+  <div class="score-form-container">
+    <form id='score-form' class="hidden">
+      <input id="score-input" type="text" placeholder="TYPE INITIALS HERE" maxlength="3"></input>
+      <input class='hidden' type="submit"></input>
+    </form>
+  </div>
+  <div class="highscore-title">High Scores</div>
+  <ul id='highscores'></ul>
+
+  <canvas id="canvas" width="450" height="600"></canvas>
 
   <div class="controls">
     <div class="">
@@ -54,7 +54,9 @@
     <div class="">
       Press arrows to move
     </div>
+
   </div>
+  <script src="lib/game.js" charset="utf-8"></script>
 </body>
 
 </html>

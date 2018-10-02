@@ -16,6 +16,7 @@ h1 {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #a8a7a8;
   font-size: 45px;
+  margin-bottom: 5px;
 }
 
 canvas {
@@ -67,4 +68,56 @@ a:hover {
 
 button:focus {
   outline: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 10;
+  margin-top: 10px;
+}
+
+#score-input {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 14px;
+  padding: 10px;
+  background: none;
+  color: #355c7d;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.highscore-title {
+  position: absolute;
+  top: 180px;
+  left: 40px;
+  text-align: center;
+  font-family: "Chakra Petch", sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: #a8a7a8;
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+
+#highscores {
+  position: absolute;
+  top: 220px;
+  left: 20px;
+  text-align: center;
+  font-family: "Chakra Petch", sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: #a8a7a8;
+  font-size: 26px;
+  margin-bottom: 5px;
+  list-style: upper-roman;
+}
+
+li {
+  text-align: left;
 }
