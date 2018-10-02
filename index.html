@@ -23,6 +23,17 @@
 </head>
 
 <body>
+  <script type="text/javascript">
+    function play() {
+      var audio = document.getElementById('audio1');
+      if (audio.paused) {
+        audio.play();
+      } else {
+        audio.pause();
+        audio.currentTime = 0
+      }
+    }
+  </script>
   <h1>Sky View</h1>
   <div class="credit">
     Developed by <a class='name' href="/">Ben Pong</a>
@@ -30,6 +41,8 @@
     <a href="https://github.com/Benpong89">Github</a>
     <a href="https://www.linkedin.com/in/ben-pongsanarakul-bb21922b">LinkedIn</a>
   </div>
+  <audio id="audio1" src="./lib/Future-RPG.mp3"></audio>
+  <button class ="play" onClick="play()">&#128266;</button>
   <canvas id="canvas" width="450" height="600"></canvas>
   <script src="lib/game.js" charset="utf-8"></script>
 
