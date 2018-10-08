@@ -8,4 +8,4 @@ Future improvements include:
 
 1.  Additional enemy types.
 2.  Explosion graphics.
-3.  Sound effects on collision.
+3.  New levels.
