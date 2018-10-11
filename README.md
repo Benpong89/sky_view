@@ -1,4 +1,4 @@
-[Live demo!](benpong.com/sky_view)
+[Live demo!](https://benpong.com/sky_view)
 
 ![alt text](sky_view.gif)
 
